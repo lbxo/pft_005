@@ -1,0 +1,27 @@
+{
+    "name": "pft_sass",
+    "version": "1.0.0",
+    "description": "conversiontype",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "scss": "node-sass --watch assets/scss/style.scss -o assets/style"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lbxo/pft_005.git"
+    },
+    "keywords": [
+        "sass",
+        "scss"
+    ],
+    "author": "Lucas Henderson",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/lbxo/pft_005/issues"
+    },
+    "homepage": "https://github.com/lbxo/pft_005#readme",
+    "dependencies": {
+        "node-sass": "^4.8.3"
+    }
+}

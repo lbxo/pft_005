@@ -1,0 +1,27 @@
+    /* ---------------------------------------
+    Call to Action Custom Button
+----------------------------------------*/
+    
+    .cta-main {
+        width: 25%;
+        margin: 0 auto;
+    }
+    
+    .cta-main button {
+        color: #ef3e23;
+    }
+    
+    .cta-main:hover {
+        width: 70%;
+        box-shadow: 3px 5px 20px rgba(17, 17, 17, 0.323);
+        transition: all 0.3s ease-in-out 0.1s;
+    }
+    
+    @media (max-width: 991px) {
+        .cta-main {
+            width: 95%;
+        }
+        .cta-main:hover {
+            width: 95%;
+        }
+    }
