@@ -140,3 +140,71 @@
     opacity: 1;
     transition: all 0.125s ease-in-out 0.1s;
 }
+
+
+/*------------------------------------------------------------- 
+FREE SAMPLE SIDE POP OUT
+-------------------------------------------------------------*/
+
+
+/* .sample-container {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    right: -130px;
+    top: 40%;
+    width: 210px;
+    z-index: 1100;
+}
+
+.sample-side li {
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    background-color: #fff;
+    color: #162630;
+    height: 300px;
+    padding: 0px;
+    margin: 0px 0px 1px 0px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    border: 1px solid #162630;
+    border-radius: 10px;
+    opacity: .4;
+}
+
+.sample-side li:hover {
+    margin-left: -115px;
+    opacity: 1;
+}
+
+.sample-side li img {
+    float: left;
+    margin: 5px 4px;
+    margin-right: 5px;
+}
+
+.sample-side li p {
+    padding-top: 5px;
+    margin: 0 auto;
+    line-height: 16px;
+    font-size: 20px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.sample-side li p a {
+    text-decoration: none;
+    color: #2C3539;
+}
+
+.sample-side li p a:hover {
+    text-decoration: underline;
+} */
