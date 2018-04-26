@@ -26,13 +26,13 @@ General Styles - FlexSlider
 .flex-direction-nav .flex-prev {
     opacity: 0;
     left: 0;
-    cursor: url(../images/prev-light.png), e-resize;
+    cursor: url(../images/pft/left-arrow.png), e-resize;
 }
 
 .flex-direction-nav .flex-next {
     opacity: 0;
     right: 0;
-    cursor: url(../images/next-light.png), e-resize;
+    cursor: url(../images/pft/right-arrow.png), e-resize;
 }
 
 .flex-control-nav {
@@ -82,6 +82,7 @@ Hero Slider
 .hero-slider .slides>li {
     display: none;
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .hero-slider,

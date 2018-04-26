@@ -667,7 +667,8 @@ a,
     height: 100%;
     left: 0;
     top: 0;
-    background-color: rgba(66, 26, 107, 0.9);
+    background-color: $secondary-color;
+    opacity: 0.8;
 }
 
 .landing-reason {

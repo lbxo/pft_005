@@ -1,6 +1,9 @@
 /*--------------------------------------------------------------
 	Common
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+	PFT DIRECT - BRAND COLOR PALETTE
+--------------------------------------------------------------*/
 html {
   overflow-y: scroll;
   overflow-x: hidden;
@@ -505,7 +508,8 @@ a,
   height: 100%;
   left: 0;
   top: 0;
-  background-color: rgba(66, 26, 107, 0.9); }
+  background-color: #162630;
+  opacity: 0.8; }
 
 .landing-reason {
   color: #fff;
@@ -832,7 +836,7 @@ blockquote {
 
 /* Landing Page */
 .landing-reason .module-title {
-  color: #e6af4b; }
+  color: #f4f2ef; }
 
 .landing-reason .module-title + .module-subtitle {
   margin-top: -60px;
@@ -879,12 +883,12 @@ General Styles - FlexSlider
 .flex-direction-nav .flex-prev {
   opacity: 0;
   left: 0;
-  cursor: url(../images/prev-light.png), e-resize; }
+  cursor: url(../images/pft/left-arrow.png), e-resize; }
 
 .flex-direction-nav .flex-next {
   opacity: 0;
   right: 0;
-  cursor: url(../images/next-light.png), e-resize; }
+  cursor: url(../images/pft/right-arrow.png), e-resize; }
 
 .flex-control-nav {
   position: absolute;
@@ -925,7 +929,8 @@ Hero Slider
 
 .hero-slider .slides > li {
   display: none;
-  -webkit-backface-visibility: hidden; }
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
 
 .hero-slider,
 .hero-slider .flex-viewport {
@@ -1539,6 +1544,7 @@ Google map
   left: 50%;
   height: 14px;
   width: 14px;
+  transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -1553,6 +1559,7 @@ Google map
   left: 50%;
   height: 16px;
   width: 16px;
+  transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
