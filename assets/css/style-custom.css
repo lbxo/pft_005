@@ -40,36 +40,29 @@
         filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=3);
     }
     
-    .cta-round a {
+    .cta-round a,
+    .cta-round:visited {
         display: table-cell;
         text-align: center;
         vertical-align: middle;
-        /* padding: 16px; */
         width: 150px;
         height: 150px;
         transition: all 0.3s ease;
-        /* background-color: #162630; */
         background-color: #f4f2ef;
-        /* color: #fff; */
         color: #111;
         font-size: 16px;
-        /* line-height: 150px; */
         opacity: .9;
         border-radius: 50%;
         border: 1px solid #ef3e23;
         box-shadow: 3px 5px 35px #111;
     }
-    
+
     .cta-round a:hover {
-        background-color: #ef3e23;
+        background-color: #fff;
+        color: #ef3e23;
         margin-left: -20px;
         opacity: 1;
         box-shadow: 5px 8px 20px #111;
-    }
-    
-    .cta-round_button {
-        background: white;
-        color: #162630;
     }
     
     @media (max-width: 768px) {
