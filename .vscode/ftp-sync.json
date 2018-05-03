@@ -1,12 +1,12 @@
 {
-    "remotePath": "./",
-    "host": "host",
-    "username": "username",
-    "password": "password",
-    "port": 21,
+    "remotePath": "./www/",
+    "host": "pdmsandbox.com",
+    "username": "pioneer@pdmsandbox.com",
+    "password": "PDMadmin12540",
+    "port": 22,
     "secure": false,
     "protocol": "ftp",
-    "uploadOnSave": false,
+    "uploadOnSave": true,
     "passive": false,
     "debug": false,
     "privateKeyPath": null,
@@ -14,7 +14,8 @@
     "ignore": [
         "\\.vscode",
         "\\.git",
-        "\\.DS_Store"
+        "\\.DS_Store",
+        "\\node_modules"
     ],
     "generatedFiles": {
         "uploadOnSave": false,

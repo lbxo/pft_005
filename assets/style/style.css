@@ -1104,7 +1104,7 @@ General Styles - Owlcarousel
   background-color: #fff;
   border: 0;
   border-radius: 0;
-  z-index: 1000;
+  z-index: 5000;
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -1137,7 +1137,7 @@ General Styles - Owlcarousel
   color: #162630; }
 
 .navbar-brand img {
-  height: 100%; }
+  height: 130%; }
 
 .navbar-custom .nav li > a {
   position: relative;
@@ -1638,7 +1638,7 @@ Google map
 .filter > li {
   display: inline-block;
   padding: 0 0 10px;
-  margin: 0 25px; }
+  margin: 0 30px; }
 
 /* Portfolio grid */
 .works-grid {
@@ -1750,7 +1750,6 @@ Google map
   background: -o-linear-gradient(-45deg, rgba(111, 226, 158, 0.8) 0%, rgba(91, 218, 209, 0.8) 100%);
   background: -ms-linear-gradient(-45deg, rgba(111, 226, 158, 0.8) 0%, rgba(91, 218, 209, 0.8) 100%);
   background: linear-gradient(135deg, rgba(111, 226, 158, 0.8) 0%, rgba(91, 218, 209, 0.8) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6fe29e', endColorstr='#5bdad1',GradientType=1 );
   opacity: 1; }
 
 .sliding-portfolio .work-item {

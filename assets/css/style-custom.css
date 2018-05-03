@@ -95,3 +95,9 @@
             font-size: 32px;
         }
     }
+    
+    @media (max-width: 310px) {
+        .navbar-brand img {
+            height: 100%;
+        }
+    }
