@@ -1,0 +1,95 @@
+    /* ---------------------------------------
+    Call to Action Custom Button
+----------------------------------------*/
+    
+.cta-main {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.cta-main button {
+    color: #ef3e23;
+}
+
+.cta-main:hover {
+    width: 70%;
+    box-shadow: 3px 5px 20px rgba(17, 17, 17, 0.323);
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+@media (max-width: 991px) {
+    .cta-main {
+        width: 95%;
+    }
+    .cta-main:hover {
+        width: 95%;
+    }
+}
+
+.cta-round {
+    position: fixed;
+    top: 6.5%;
+    right: 5%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+}
+
+.cta-round a,
+.cta-round:visited {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    transition: all 0.3s ease;
+    background-color: #f4f2ef;
+    color: #111;
+    font-size: 16px;
+    opacity: .9;
+    border-radius: 50%;
+    border: 1px solid #ef3e23;
+    box-shadow: 3px 5px 35px #111;
+}
+
+.cta-round a:hover {
+    background-color: #fff;
+    color: #ef3e23;
+    margin-left: -20px;
+    opacity: 1;
+    box-shadow: 5px 8px 20px #111;
+}
+
+@media (max-width: 768px) {
+    .cta-round a {
+        width: 75px;
+        height: 75px;
+        font-size: 12px;
+    }
+}
+/* ---------------------------------------
+CUSTOM STYLING
+----------------------------------------*/
+/* Hero Slider Text */
+
+.boldtext {
+    font-weight: 800;
+    font-size: 64px;
+    letter-spacing: 4px;
+}
+
+@media (max-width: 768px) {
+    .boldtext {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 310px) {
+    .navbar-brand img {
+        height: 100%;
+    }
+}
