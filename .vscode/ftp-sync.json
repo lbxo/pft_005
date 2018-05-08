@@ -3,7 +3,7 @@
     "host": "pdmsandbox.com",
     "username": "pioneer@pdmsandbox.com",
     "password": "PDMadmin12540",
-    "port": 21,
+    "port": 22,
     "secure": false,
     "protocol": "sftp",
     "uploadOnSave": true,
