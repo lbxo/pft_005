@@ -50,6 +50,7 @@ blockquote {
 
 .font-custom-p {
     font-family: "Roboto Condensed", sans-serif;
+    color: $secondary-color;
     text-transform: none;
     letter-spacing: 2px;
     text-align: justify;
@@ -59,13 +60,13 @@ blockquote {
 
 .font-custom-link a {
     font-size: 120%;
-    color: #fff;
+    color: $secondary-color;
     text-transform: uppercase;
     text-decoration: underline;
 }
 
 .font-custom-link a:hover {
-    color: #fff;
+    color: $primary-color;
 }
 
 .font-serif {

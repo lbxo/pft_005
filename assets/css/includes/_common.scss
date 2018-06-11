@@ -1,4 +1,4 @@
-@import "colors/default";
+@import "default";
 html {
     overflow-y: scroll;
     overflow-x: hidden;
@@ -291,7 +291,7 @@ a,
 
 .bg-dark-30:before {
     position: absolute;
-    background: #2d404d54;
+    // background: #2d404d54;
     content: " ";
     height: 100%;
     width: 100%;
@@ -301,7 +301,7 @@ a,
 
 .bg-dark-60:before {
     position: absolute;
-    background: #2d404dc6;
+    // background: #2d404dc6;
     content: " ";
     height: 100%;
     width: 100%;
@@ -311,7 +311,7 @@ a,
 
 .bg-dark-90:before {
     position: absolute;
-    background: #2d404dc9;
+    // background: #2d404dc9;
     content: " ";
     height: 100%;
     width: 100%;
